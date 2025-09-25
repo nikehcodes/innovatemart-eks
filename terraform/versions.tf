@@ -12,7 +12,7 @@ terraform {
   }
   
   backend "s3" {
-    bucket = "innovatemart-terraform-state"
+    bucket = "innovatemart-terraform-state-us-west-2"
     key    = "eks/terraform.tfstate"
     region = "us-west-2"
     encrypt = true
